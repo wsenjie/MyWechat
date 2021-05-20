@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="@drawable/src1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/drawer_toolbar"
+            app:navigationIcon="@drawable/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:text="注册"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:id="@+id/rg_form"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp">
+            <EditText
+                    android:id="@+id/rg_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/user"
+                    android:inputType="text"
+                    android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:textSize="20sp"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp">
+            <EditText
+                    android:id="@+id/rg_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/password"
+                    android:textSize="20sp"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="60dp"
+                android:layout_marginBottom="35dp"
+                android:layout_marginTop="30dp">
+            <EditText
+                    android:id="@+id/rg_re_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/rg_re_pass"
+                    android:textSize="20sp"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/rg_btn"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login_btn_select"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+</LinearLayout>

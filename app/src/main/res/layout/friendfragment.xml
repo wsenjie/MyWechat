@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray">
+
+    <ListView
+            android:id="@+id/friends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </ListView>
+
+    <TextView
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:text="↑\n☆\nA\nB\nC\nD\nE\nF\nG\nH\nI\nG\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n#"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+</RelativeLayout>

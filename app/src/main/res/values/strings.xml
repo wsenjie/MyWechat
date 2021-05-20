@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="weixin">微信</string>
+    <string name="com">通讯录</string>
+    <string name="find">发现</string>
+    <string name="me">我</string>
+    <string name="user">用户账号</string>
+    <string name="password">密码</string>
+    <string name="rg_re_pass">确认密码</string>
+    <string name="register">注 册</string>
+    <string name="reset_password">修改密码</string>
+    <string name="re_pa_new">新密码</string>
+    <string name="error_invalid_password">这个密码太短了</string>
+    <string name="error_incorrect_password">此密码不正确</string>
+    <string name="error_field_required">这个字段是必需的</string>
+    <string name="error_field">两次输入密码不一致！</string>
+    <string name="error_required">请填写</string>
+</resources>
