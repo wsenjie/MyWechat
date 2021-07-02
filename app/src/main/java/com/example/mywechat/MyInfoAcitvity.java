@@ -5,6 +5,9 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+/**
+ * 个人信息类
+ */
 public class MyInfoAcitvity extends AppCompatActivity {
 
     private Toolbar toolbar;

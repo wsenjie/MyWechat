@@ -12,10 +12,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
 import com.example.mywechat.fragment.GongAdapter;
-import com.example.mywechat.fragment.ListfriendsAdapter;
 
+/**
+ * 公众号界面类
+ * @author sen
+ */
 public class GongActivity extends AppCompatActivity {
 
+    //操作栏
     private Toolbar toolbar;
     private ListView listView;
 

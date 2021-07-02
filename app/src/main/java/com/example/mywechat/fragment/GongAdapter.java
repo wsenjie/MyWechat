@@ -8,6 +8,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.example.mywechat.R;
 
+/**
+ * 公众号适配器类
+ * @author sen
+ */
 public class GongAdapter extends BaseAdapter {
 
     Context context;

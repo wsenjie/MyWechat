@@ -5,12 +5,14 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.ListView;
 import androidx.fragment.app.Fragment;
 import com.example.mywechat.GongActivity;
 import com.example.mywechat.R;
 
+/**
+ * 通讯录类
+ */
 public class FriendFragment extends Fragment {
     private ListView listView;
     private View headview;

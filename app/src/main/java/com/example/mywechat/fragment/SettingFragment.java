@@ -4,10 +4,12 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 import androidx.fragment.app.Fragment;
 import com.example.mywechat.R;
 
+/**
+ * 发现界面类
+ */
 public class SettingFragment extends Fragment {
 
     @Override

@@ -11,6 +11,9 @@ import androidx.fragment.app.Fragment;
 import com.example.mywechat.ChatActivity;
 import com.example.mywechat.R;
 
+/**
+ * 微信主界面
+ */
 public class ContactFragment extends Fragment {
 
     private ListView listView;

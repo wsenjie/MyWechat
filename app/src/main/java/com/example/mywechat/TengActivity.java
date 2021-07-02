@@ -13,6 +13,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 公众号聊天界面类
+ */
 public class TengActivity extends AppCompatActivity implements View.OnClickListener {
     private LinearLayout bottomLayout;// 底部菜单父框架
     private LinearLayout bottomMenuLayout1;// 底部菜单布局

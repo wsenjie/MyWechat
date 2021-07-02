@@ -8,12 +8,14 @@ import android.view.ViewGroup;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 聊天界面类
+ */
 public class ChatActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ListView lv;

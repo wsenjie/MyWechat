@@ -5,7 +5,9 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.mywechat.user.LoginActivity;
 
-
+/**
+ * 自定义入场动画类
+ */
 public class SplashActivity extends AppCompatActivity {
 
     @Override

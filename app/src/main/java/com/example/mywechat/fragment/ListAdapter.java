@@ -8,6 +8,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.example.mywechat.R;
 
+/**
+ * 聊天主界面适配器类
+ */
 public class ListAdapter extends BaseAdapter {
 
     Context context;

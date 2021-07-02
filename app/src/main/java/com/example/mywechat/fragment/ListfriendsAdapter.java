@@ -8,6 +8,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.example.mywechat.R;
 
+/**
+ * 通讯录列表适配器类
+ * @author sen
+ */
 public class ListfriendsAdapter extends BaseAdapter {
 
     Context context;

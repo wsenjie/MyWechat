@@ -11,6 +11,11 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+/**
+ * 支付界面类
+ *
+ * @author sen
+ */
 public class PayActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
