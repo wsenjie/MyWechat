@@ -1,2 +1,2 @@
 # MyWechat
-仿写微信
+Android仿写微信app项目
